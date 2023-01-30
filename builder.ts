@@ -35,7 +35,7 @@ const serverParams: LiveServerParams = {
 const buildParams: BuildOptions = {
   color: true,
   entryPoints: ["src/index.tsx"],
-  loader: { ".ts": "tsx", ".json": "json", ".png": "file", ".jpeg": "file", ".jpg": "file", ".svg": "file" },
+  loader: { ".ts": "tsx", ".json": "json", ".png": "file", ".jpeg": "file", ".jpg": "file", ".svg": "file", ".woff2": "file" },
   assetNames: "assets/[name]-[hash]",
   outdir: "build",
   minify: !isWatch,
